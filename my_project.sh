@@ -12,6 +12,12 @@ sum() {
     # Display the result
     echo "The sum of x and y is: $result"
 }
+mul() {
+    local x=$1
+    local x=$2
+    local result=$((x * y))
+    echo "The product of x and y is: $result"
+}
 
 # Set the variables
 x=10
